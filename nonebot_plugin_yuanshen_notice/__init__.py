@@ -25,7 +25,7 @@ async def yy(bot: Bot, event: GroupMessageEvent, state: T_State):
     header = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59"
     }
-    with httpx.AsyncClient as client:
+    async with httpx.AsyncClient as client:
         resp = await client.get(url=url, headers=header, timeout=10)  # 返回数据
     data_d = json.loads(resp.text)  # 转换字典
     str = '——📢—原神公告—📢——\n'  # 定义字符串，用于后续储存公告标题
@@ -43,7 +43,7 @@ async def cc(bot: Bot, event: GroupMessageEvent, state: T_State):
     header = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59"
     }
-    with httpx.AsyncClient as client:
+    async with httpx.AsyncClient as client:
         resp = await client.get(url=url, headers=header, timeout=10)  # 返回数据
     data_d = json.loads(resp.text)  # 转换字典
     ans = str(event.get_message()).strip()
