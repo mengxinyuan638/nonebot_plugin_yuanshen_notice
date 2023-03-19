@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-yuanshen-notice"
-version = "0.1.6"
+version = "0.1.7"
 description = "一个基于nonebot实现原神公告实时展示的插件"
 authors = ["mengxinyuan <1648576390@qq.com>"]
 license = "MIT"
