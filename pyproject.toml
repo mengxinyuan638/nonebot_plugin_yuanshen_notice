@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-yuanshen-notice"
-version = "0.1.1"
+version = "0.1.5"
 description = "一个基于nonebot实现原神公告实时展示的插件"
 authors = ["mengxinyuan <1648576390@qq.com>"]
 license = "MIT"
@@ -9,9 +9,9 @@ packages = [{include = "nonebot_plugin_yuanshen_notice"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-requests = "^2.24.0"
+httpx = "^0.23.0"
 nonebot2 = "^2.0.0rc1"
-
+nonebot-adapter-onebot = "^2.1.5"
 
 [build-system]
 requires = ["poetry-core"]
