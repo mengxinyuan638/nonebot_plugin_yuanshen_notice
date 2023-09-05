@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://v2.nonebot.dev/"><img src="https://zsy.juncikeji.xyz/i/img/mxy.png" width="150" height="150" alt="API管理系统"></a>
+  <a href="https://v2.nonebot.dev/"><img src="https://camo.githubusercontent.com/0ef71e86056da694c540790aa4a4e314396884d6c4fdb95362a7538b27a1b034/68747470733a2f2f76322e6e6f6e65626f742e6465762f6c6f676f2e706e67" width="200" height="200" alt="nonebot" data-canonical-src="https://v2.nonebot.dev/logo.png" style="max-width: 100%;"></a>
 </p>
 <div align="center">
     <h1 align="center">✨原神公告</h1>
@@ -13,12 +13,6 @@
 <img src="https://img.shields.io/badge/Python-3.8+-blue" alt="python">
 <a style="margin-inline:5px" target="_blank" href="http://blog.juncikeji.xyz/">
 	<img src="https://img.shields.io/badge/Blog-个人博客-FDE6E0?style=flat&logo=Blogger" title="萌新源的小窝">
-</a>
-<a style="margin-inline:5px" target="_blank" href="https://github.com/mengxinyuan638/mxy-api-system">
-	<img src="https://img.shields.io/badge/github-萌新源API管理系统-FDE6E0?style=flat&logo=github" title="萌新源API管理系统">
-</a>
-<a style="margin-inline:5px" target="_blank" href="https://gitee.com/meng-xinyuan-mxy/mxy-api">
-	<img src="https://img.shields.io/badge/gitee-萌新源API管理系统-FDE6E0?style=flat&logo=gitee" title="萌新源API管理系统">
 </a>
 <!-- 萌新源API -->
 <a style="margin-inline:5px" target="_blank" href="https://api.juncikeji.xyz/">
@@ -37,23 +31,24 @@
 
 
 
+
 # 使用教程
 
 ## 命令1：原神公告
 
 ## 返回：官网最新20条公告标题列表
 
-![](https://zsy.juncikeji.xyz/i/img/ysgg.png)
+![](https://zsy.mxycn.cn/i/img/ysgg.png)
 
 ## 命令2：#原神公告+公告序号
 
 ## 返回：
 
-![](https://zsy.juncikeji.xyz/i/img/ysgg0.png)
+![](https://zsy.mxycn.cn/i/img/ysgg0.png)
 
 # 依赖
 
-本插件依赖request库以及json库
+本插件依赖httpx库以及json库
 
 
 
